@@ -89,7 +89,7 @@ Before you begin, make sure you have the following:
 
 ## Conclusion
 
-Congratulations! You have successfully hosted a simple static website using AWS EC2 and an S3 bucket. The IAM role you created and attached to the EC2 instance ensures that the instance has the necessary permissions to access the S3 bucket.
+Congratulations! You have successfully hosted a simple static website using AWS EC2 and an S3 bucket. The IAM role you created and attached to the EC2 instance ensures that the instance has the necessary permissions to access the S3 bucket and allows the EC2 to sync with the S3 bucket.
 
 Remember to clean up and terminate the EC2 instance and S3 bucket when you no longer need them to avoid unnecessary costs.
 
