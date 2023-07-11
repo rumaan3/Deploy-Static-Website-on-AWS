@@ -84,7 +84,8 @@ Before you begin, make sure you have the following:
     sudo service httpd start
     ```
 2. Open a web browser and enter the public IP address of your EC2 instance.
-3. You should see your static website displayed in the browser.
+3. If You are using a chrome Browser make sure to remove the "s" from https:// or else add http:// before the public IP address
+4. You should see your static website displayed in the browser.
 
 ## Conclusion
 
@@ -95,7 +96,7 @@ Remember to clean up and terminate the EC2 instance and S3 bucket when you no lo
 For more information and advanced configurations, refer to the official AWS documentation.
 
 Note: The files used in hosting are from the public CodePen of LegoMushroom (https://codepen.io/sol0mka/pen/eYgydO)
-
+Github Repo: https://github.com/julianshapiro/velocity
 
 
 Happy hosting!
